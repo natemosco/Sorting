@@ -28,16 +28,12 @@ def bubble_sort(arr):
     is_sorted = len(arr)-1
     end_of_array = len(arr) - 1
     while is_sorted != counter:
-        for i in range(0, end_of_array):
-            if i == 0:
                 counter = 0
+        for i in range(0, end_of_array):
             if arr[i] <= arr[i+1]:
                 counter += 1
             elif arr[i] > arr[i+1]:
-                one = arr[i]
-                two = arr[i+1]
-                arr[i] = two
-                arr[i+1] = one
+                arr[i] = arr[i+1]
     return arr
 
 

@@ -6,7 +6,8 @@ def my_recursion(n):
     my_recursion(n+1)
 
 
-# my_recursion(1)
+my_recursion(1)
+
 
 def get_fib(num):
     two_behind = 0
