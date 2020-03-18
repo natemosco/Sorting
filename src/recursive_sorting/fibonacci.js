@@ -11,4 +11,3 @@ console.log(getfib(10));
 
 
 console.log('here', num2)
-
